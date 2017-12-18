@@ -97,6 +97,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/liquid/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
 
+# Themes
+$(call inherit-product-if-exists, vendor/liquid/products/themes.mk)
+
 # TWRP
 ifeq ($(WITH_TWRP),true)
 include vendor/liquid/config/twrp.mk
