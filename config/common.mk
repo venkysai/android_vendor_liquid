@@ -119,7 +119,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Gallery2 \
     Launcher3 \
-    LiquidLounge
+    LiquidLounge \
+    phonograph \
+    Stk
 
 # Optional packages
 PRODUCT_PACKAGES += \
