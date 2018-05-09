@@ -118,7 +118,7 @@ PRODUCT_PACKAGES += \
 # Required packages
 PRODUCT_PACKAGES += \
     Gallery2 \
-    Launcher3 \
+    launcherS \
     LiquidLounge \
     phonograph \
     Stk
