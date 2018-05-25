@@ -121,7 +121,8 @@ PRODUCT_PACKAGES += \
     launcherS \
     LiquidLounge \
     phonograph \
-    Stk
+    Stk \
+    Camera
 
 # Optional packages
 PRODUCT_PACKAGES += \
